@@ -110,6 +110,9 @@ export const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
   { label: 'Service Areas', href: '/service-areas' },
+  { label: 'Reviews', href: '/reviews' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ] as const;
 
@@ -123,7 +126,9 @@ export const FOOTER_LINKS = {
   ],
   company: [
     { label: 'About Us', href: '/about' },
+    { label: 'Reviews', href: '/reviews' },
     { label: 'Contact', href: '/contact' },
+    { label: 'Blog', href: '/blog' },
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy' },
@@ -138,7 +143,29 @@ export const HOURS = {
   emergency: '24/7 Emergency Service Available',
 } as const;
 
-export const REVIEWS = [] as const;
+export const REVIEWS = [
+  {
+    author: 'Satisfied Homeowner',
+    location: 'Suffolk County, NY',
+    rating: 5,
+    date: '2024-09-15',
+    text: "I can't express how grateful I am for Quest Pest! We had a terrible ant infestation that was driving us crazy. Their team responded quickly, identified the problem, and implemented an eco-friendly solution that worked wonders. Within days, the ants were gone, and they haven't returned in months. Highly recommend!",
+  },
+  {
+    author: 'New Homeowner',
+    location: 'Nassau County, NY',
+    rating: 5,
+    date: '2024-08-22',
+    text: "Quest Pest is a lifesaver! We discovered termites in our newly purchased home and were devastated. The Quest team responded immediately, performed a thorough inspection, and developed a comprehensive treatment plan. They used state-of-the-art techniques to eliminate the termites and prevent future infestations.",
+  },
+  {
+    author: 'Property Manager',
+    location: 'Queens, NY',
+    rating: 5,
+    date: '2024-07-10',
+    text: "Managing a large apartment complex comes with its share of pest control challenges. Quest Pest has consistently exceeded our expectations. Their proactive approach, quick response times, and effective treatments have significantly reduced pest-related complaints from our tenants.",
+  },
+] as const;
 
 export const NETWORK_SITES = [] as const;
 
