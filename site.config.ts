@@ -145,26 +145,47 @@ export const HOURS = {
 
 export const REVIEWS = [
   {
-    author: 'Satisfied Homeowner',
-    location: 'Suffolk County, NY',
+    name: "Sean L.",
     rating: 5,
-    date: '2024-09-15',
-    text: "I can't express how grateful I am for Quest Pest! We had a terrible ant infestation that was driving us crazy. Their team responded quickly, identified the problem, and implemented an eco-friendly solution that worked wonders. Within days, the ants were gone, and they haven't returned in months. Highly recommend!",
+    text: "I have been using Quest Pest Control for over a year to control camelback crickets in my house and they have done a superb job. Ani, one of their service technicians, is absolutely the best. She is courteous and efficient. A pro’s pro. I wholeheartedly recommend them.",
+    date: "1 month ago",
+    source: "Google"
   },
   {
-    author: 'New Homeowner',
-    location: 'Nassau County, NY',
+    name: "Allan A.",
     rating: 5,
-    date: '2024-08-22',
-    text: "Quest Pest is a lifesaver! We discovered termites in our newly purchased home and were devastated. The Quest team responded immediately, performed a thorough inspection, and developed a comprehensive treatment plan. They used state-of-the-art techniques to eliminate the termites and prevent future infestations.",
+    text: "Annie demonstrated a high level of professionalism. Her kindness and tremendous attention to detail was admirable. She was a pleasure to have in our home.",
+    date: "2 months ago",
+    source: "Google"
   },
   {
-    author: 'Property Manager',
-    location: 'Queens, NY',
+    name: "Julie K.",
     rating: 5,
-    date: '2024-07-10',
-    text: "Managing a large apartment complex comes with its share of pest control challenges. Quest Pest has consistently exceeded our expectations. Their proactive approach, quick response times, and effective treatments have significantly reduced pest-related complaints from our tenants.",
+    text: "Brandon is a true professional and also very kind. I trust him to do a great job and he does.",
+    date: "1 month ago",
+    source: "Google"
   },
+  {
+    name: "Anthony S.",
+    rating: 5,
+    text: "The technician was very nice and thorough in her work. Very nice service.",
+    date: "2 weeks ago",
+    source: "Google"
+  },
+  {
+    name: "Noelle D.",
+    rating: 5,
+    text: "Ani has serviced us a few times so far and she is always diligent in checking everything and a pleasure to work with.",
+    date: "3 months ago",
+    source: "Google"
+  },
+  {
+    name: "Lakisha H.",
+    rating: 5,
+    text: "Awesome fast and sufficient service.",
+    date: "1 week ago",
+    source: "Google"
+  }
 ] as const;
 
 export const NETWORK_SITES = [] as const;
