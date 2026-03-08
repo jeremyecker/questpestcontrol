@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
+import { getAllBlogPosts } from '@/lib/blog-posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
@@ -36,6 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       });
     }
+  }
+
+  const blogPosts = getAllBlogPosts();
+  for (const post of blogPosts) {
+    entries.push({
+      url: `https://questpest.net/blog/${post.slug}`,
+      lastModified: post.date,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
   }
 
   return entries;
