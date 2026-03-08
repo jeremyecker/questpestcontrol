@@ -1205,3 +1205,11 @@ Outdoor pest activity drops significantly. **Rodents** are now fully established
     `.trim(),
   },
 ];
+
+export function getAllBlogPosts(): BlogPost[] {
+  return blogPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getBlogPostBySlug(slug: string): BlogPost | undefined {
+  return blogPosts.find((post) => post.slug === slug);
+}
