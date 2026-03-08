@@ -72,6 +72,7 @@ export interface BlogPost {
   author: string;
   tags: string[];
   image?: string;
+  heroImage?: string;
 }
 
 export interface FAQ {
