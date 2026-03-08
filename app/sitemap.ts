@@ -3,6 +3,7 @@ import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import { getAllBlogPosts } from '@/lib/blog-posts';
 import { LEAD_CAPTURE_REGIONS, LEAD_CAPTURE_INTENT_SLUGS } from '@/lib/quest-lead-capture-data';
+import { COMMERCIAL_VERTICALS } from '@/lib/quest-commercial-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
@@ -50,6 +51,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
     }
+  }
+
+  // Commercial pages — index + 10 verticals
+  entries.push({
+    url: `${base}/commercial/`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  });
+
+  for (const vertical of COMMERCIAL_VERTICALS) {
+    entries.push({
+      url: `${base}/commercial/${vertical.slug}/`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    });
   }
 
   const blogPosts = getAllBlogPosts();
