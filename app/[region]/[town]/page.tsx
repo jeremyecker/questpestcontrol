@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
 import { BRAND, REGIONS } from '@/hub.config';
+import { questTownOpeners } from '@/lib/quest-town-openers';
 
 // ─── Region-differentiated FAQ data ───────────────────────────────────────────
 const REGION_FAQS: Record<string, { q: string; a: string }[]> = {
@@ -131,6 +132,7 @@ export default async function TownPage({
   }));
 
   const nearbyTowns = getNearbyTowns(region.towns, townSlug);
+  const townOpener = questTownOpeners[townSlug] ?? null;
 
   const canonicalUrl = `https://${BRAND.domain}/${regionSlug}/${townSlug}/`;
 
@@ -277,6 +279,13 @@ export default async function TownPage({
       </section>
 
       <div className="max-w-5xl mx-auto px-4 py-12">
+
+        {/* ── Town Opener ── */}
+        {townOpener && (
+          <section className="mb-10">
+            <p className="text-lg text-gray-700 leading-relaxed">{townOpener}</p>
+          </section>
+        )}
 
         {/* ── Service Cards ── */}
         <section className="mb-14">
