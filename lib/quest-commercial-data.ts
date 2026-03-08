@@ -37,7 +37,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'DOH-compliant pest management for restaurants, delis, and food service operations across Long Island and Queens.',
     intro:
-      "Long Island and Queens are home to thousands of restaurants — from the packed dining corridors of Flushing's Main Street and Astoria's waterfront to Hempstead's busy downtown, Patchogue's growing restaurant row, Bay Shore's Main Street, and Huntington Village's dining scene. Every food service establishment operating in Nassau County, Suffolk County, or Queens faces strict scrutiny from the New York City Department of Health or New York State Department of Agriculture and Markets. A single pest sighting during an inspection can mean a failing letter grade, a re-inspection fee, or forced closure — outcomes that can permanently damage a restaurant's reputation. Quest Pest Control provides discreet, thorough pest management programs built specifically for food service environments: early-morning service windows, HACCP-compatible documentation, and targeted protocols for German cockroaches in commercial kitchens, rodent exclusion at loading docks and dumpster areas, and drain fly management in bar and prep areas. We serve restaurants across Smithtown, Patchogue, Hempstead, Bay Shore, Huntington, Flushing, and Astoria with scheduled and emergency response programs.",
+      "Long Island and Queens are home to thousands of restaurants — from the packed dining corridors of Flushing\'s Main Street and Astoria\'s waterfront to Hempstead\'s busy downtown, Patchogue\'s growing restaurant row, Bay Shore\'s Main Street, and Huntington Village\'s dining scene. Every food service establishment operating in Nassau County, Suffolk County, or Queens faces strict scrutiny from the New York City Department of Health or New York State Department of Agriculture and Markets. A single pest sighting during an inspection can mean a failing letter grade, a re-inspection fee, or forced closure — outcomes that can permanently damage a restaurant\'s reputation. Quest Pest Control provides discreet, thorough pest management programs built specifically for food service environments: early-morning service windows, HACCP-compatible documentation, and targeted protocols for German cockroaches in commercial kitchens, rodent exclusion at loading docks and dumpster areas, and drain fly management in bar and prep areas. We serve restaurants across Smithtown, Patchogue, Hempstead, Bay Shore, Huntington, Flushing, and Astoria with scheduled and emergency response programs.",
     challenges: [
       {
         title: 'DOH Inspections and Letter Grades',
@@ -126,7 +126,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Comprehensive pest management for apartment buildings and multi-family housing across Queens, Nassau, and Suffolk — including bed bug programs and HPD compliance support.',
     intro:
-      "Queens is one of the most densely populated boroughs in New York City, with apartment buildings ranging from large pre-war walk-ups in Flushing and Astoria to high-rise towers in Long Island City and Jamaica. Nassau County's multi-family corridor spans Hempstead, Valley Stream, and Freeport, where aging rental stock presents persistent pest management challenges. Bed bugs, cockroaches, and rodents in multi-family buildings create not just health concerns but significant legal liability — HPD violations in New York City carry financial penalties, while Nassau and Suffolk properties face state housing code consequences. Quest Pest Control provides structured multi-unit pest management programs designed for property managers and building owners: unit-by-unit bed bug inspection and treatment, building-wide cockroach and rodent programs with common-area focus, tenant communication templates, and documentation packages for HPD compliance. We understand that multi-family pest control requires coordination, discretion, and consistent follow-through — not one-time visits.",
+      "Queens is one of the most densely populated boroughs in New York City, with apartment buildings ranging from large pre-war walk-ups in Flushing and Astoria to high-rise towers in Long Island City and Jamaica. Nassau County\'s multi-family corridor spans Hempstead, Valley Stream, and Freeport, where aging rental stock presents persistent pest management challenges. Bed bugs, cockroaches, and rodents in multi-family buildings create not just health concerns but significant legal liability — HPD violations in New York City carry financial penalties, while Nassau and Suffolk properties face state housing code consequences. Quest Pest Control provides structured multi-unit pest management programs designed for property managers and building owners: unit-by-unit bed bug inspection and treatment, building-wide cockroach and rodent programs with common-area focus, tenant communication templates, and documentation packages for HPD compliance. We understand that multi-family pest control requires coordination, discretion, and consistent follow-through — not one-time visits.",
     challenges: [
       {
         title: 'Bed Bug Spread Between Units',
@@ -136,7 +136,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'HPD Violations and Tenant Complaints',
         description:
-          "New York City's Housing Preservation and Development agency records pest complaints and issues violations that become part of a building's public record. Repeated HPD violations increase legal exposure and make it harder to attract quality tenants.",
+          "New York City\'s Housing Preservation and Development agency records pest complaints and issues violations that become part of a building\'s public record. Repeated HPD violations increase legal exposure and make it harder to attract quality tenants.",
       },
       {
         title: 'Cockroach Infestations in Common Areas',
@@ -215,7 +215,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Discreet, thorough pest management for hotels and hospitality properties across Long Island and Queens — including bed bug K-9 inspections and reputation-protecting protocols.',
     intro:
-      "Long Island's hospitality sector spans Nassau County business hotels in Garden City and Uniondale, Suffolk County properties across Huntington and Smithtown, and the seasonal Hamptons destination market in Southampton, East Hampton, and Montauk. Queens hosts a dense corridor of airport-adjacent hotels serving JFK and LaGuardia travelers in Jamaica and East Elmhurst — properties with high turnover rates and constant guest flow. A single bed bug review on TripAdvisor or Google can cost a hotel tens of thousands of dollars in lost bookings, and a rodent sighting in a breakfast area or lobby becomes a viral social media event within hours. Quest Pest Control provides hotel-specific pest management programs built around guest experience protection: discreet room inspections, scheduled bed bug K-9 detection programs, comprehensive rodent exclusion for food and beverage areas, and fly management for breakfast buffets and restaurant spaces. We understand that hospitality pest control must be invisible to guests and airtight in documentation.",
+      "Long Island\'s hospitality sector spans Nassau County business hotels in Garden City and Uniondale, Suffolk County properties across Huntington and Smithtown, and the seasonal Hamptons destination market in Southampton, East Hampton, and Montauk. Queens hosts a dense corridor of airport-adjacent hotels serving JFK and LaGuardia travelers in Jamaica and East Elmhurst — properties with high turnover rates and constant guest flow. A single bed bug review on TripAdvisor or Google can cost a hotel tens of thousands of dollars in lost bookings, and a rodent sighting in a breakfast area or lobby becomes a viral social media event within hours. Quest Pest Control provides hotel-specific pest management programs built around guest experience protection: discreet room inspections, scheduled bed bug K-9 detection programs, comprehensive rodent exclusion for food and beverage areas, and fly management for breakfast buffets and restaurant spaces. We understand that hospitality pest control must be invisible to guests and airtight in documentation.",
     challenges: [
       {
         title: 'Bed Bug Risk from High Guest Turnover',
@@ -304,7 +304,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'IPM-compliant pest management for K-12 schools, daycares, and childcare facilities across Long Island and Queens — NYS DOE compliant with child-appropriate treatment protocols.',
     intro:
-      "New York State requires public schools to implement Integrated Pest Management (IPM) programs, and private schools and licensed childcare facilities operate under strict regulatory oversight from the NYS Office of Children and Family Services and local health departments. Nassau County is home to some of New York's largest school districts including Hempstead, Valley Stream, and Hewlett-Woodmere, while Suffolk County's Brentwood, Smithtown, and Huntington districts serve tens of thousands of students. Queens hosts major districts in Flushing and Jamaica serving diverse, dense communities. Rodents in gym storage areas, German cockroaches in cafeteria kitchens, ants infiltrating lunch areas, and stored-product pests in food storage rooms are common challenges in educational facilities. Quest Pest Control provides IPM-first programs for schools and daycares: non-chemical exclusion and monitoring as the first line of defense, with targeted treatments applied only when thresholds are exceeded and using the lowest-impact products permitted. Parent and staff notification protocols, treatment scheduling around school hours, and full documentation for IPM program requirements are standard with every school account.",
+      "New York State requires public schools to implement Integrated Pest Management (IPM) programs, and private schools and licensed childcare facilities operate under strict regulatory oversight from the NYS Office of Children and Family Services and local health departments. Nassau County is home to some of New York\'s largest school districts including Hempstead, Valley Stream, and Hewlett-Woodmere, while Suffolk County\'s Brentwood, Smithtown, and Huntington districts serve tens of thousands of students. Queens hosts major districts in Flushing and Jamaica serving diverse, dense communities. Rodents in gym storage areas, German cockroaches in cafeteria kitchens, ants infiltrating lunch areas, and stored-product pests in food storage rooms are common challenges in educational facilities. Quest Pest Control provides IPM-first programs for schools and daycares: non-chemical exclusion and monitoring as the first line of defense, with targeted treatments applied only when thresholds are exceeded and using the lowest-impact products permitted. Parent and staff notification protocols, treatment scheduling around school hours, and full documentation for IPM program requirements are standard with every school account.",
     challenges: [
       {
         title: 'NYS Department of Education IPM Requirements',
@@ -393,12 +393,12 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Rigorous pest management for hospitals, medical offices, and healthcare facilities across Long Island and Queens — Joint Commission compliant with infection control protocols.',
     intro:
-      "Long Island's healthcare sector includes major medical campuses — Stony Brook University Medical Center in western Suffolk County, Northwell Health facilities across Nassau County including Manhasset and Hempstead, and Good Samaritan Hospital in West Islip — as well as hundreds of outpatient clinics, medical offices, and specialty practices. Queens medical facilities in Flushing, Jamaica, and Long Island City serve densely populated communities with significant patient volume. Healthcare facilities operate under the most stringent pest management requirements of any commercial vertical: Joint Commission standards require documented IPM programs, infection control policies intersect with pest management protocols, and a single rodent or cockroach sighting in a clinical area can trigger immediate remediation requirements and potential accreditation concerns. Quest Pest Control provides healthcare-specific pest management built around zero-tolerance standards: thorough perimeter exclusion, internal monitoring programs using non-chemical detection first, targeted treatment protocols compatible with sterile environments, and documentation packages formatted for Joint Commission and infection control review.",
+      "Long Island\'s healthcare sector includes major medical campuses — Stony Brook University Medical Center in western Suffolk County, Northwell Health facilities across Nassau County including Manhasset and Hempstead, and Good Samaritan Hospital in West Islip — as well as hundreds of outpatient clinics, medical offices, and specialty practices. Queens medical facilities in Flushing, Jamaica, and Long Island City serve densely populated communities with significant patient volume. Healthcare facilities operate under the most stringent pest management requirements of any commercial vertical: Joint Commission standards require documented IPM programs, infection control policies intersect with pest management protocols, and a single rodent or cockroach sighting in a clinical area can trigger immediate remediation requirements and potential accreditation concerns. Quest Pest Control provides healthcare-specific pest management built around zero-tolerance standards: thorough perimeter exclusion, internal monitoring programs using non-chemical detection first, targeted treatment protocols compatible with sterile environments, and documentation packages formatted for Joint Commission and infection control review.",
     challenges: [
       {
         title: 'Joint Commission Standards and Accreditation',
         description:
-          "The Joint Commission's Environment of Care standards require healthcare facilities to maintain documented pest management programs as part of their accreditation. Pest activity in clinical, patient care, or food service areas must be documented, addressed, and trended — gaps in documentation create accreditation risk.",
+          "The Joint Commission\'s Environment of Care standards require healthcare facilities to maintain documented pest management programs as part of their accreditation. Pest activity in clinical, patient care, or food service areas must be documented, addressed, and trended — gaps in documentation create accreditation risk.",
       },
       {
         title: 'Zero Tolerance for Rodents and Cockroaches',
@@ -420,7 +420,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Joint Commission Documentation Packages',
         description:
-          'Quest provides service records formatted for Joint Commission Environment of Care documentation requirements, including inspection logs, pest activity trends, treatment records, and corrective action documentation — supporting your facility's accreditation readiness.',
+          'Quest provides service records formatted for Joint Commission Environment of Care documentation requirements, including inspection logs, pest activity trends, treatment records, and corrective action documentation — supporting your facility\'s accreditation readiness.',
       },
       {
         title: 'Clinical-Area Compatible Treatment Protocols',
@@ -430,7 +430,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Loading Dock and Food Service Focus',
         description:
-          "Healthcare facility pest pressure concentrates at loading docks, cafeteria kitchens, and waste management areas — not in clinical spaces. Quest's programs address these high-risk zones aggressively with exterior bait stations, mechanical exclusion, and scheduled interior treatments.",
+          "Healthcare facility pest pressure concentrates at loading docks, cafeteria kitchens, and waste management areas — not in clinical spaces. Quest\'s programs address these high-risk zones aggressively with exterior bait stations, mechanical exclusion, and scheduled interior treatments.",
       },
       {
         title: 'Emergency Response Protocols',
@@ -452,7 +452,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         question: 'Are your programs compatible with Joint Commission accreditation requirements?',
         answer:
-          "Yes. Quest designs healthcare pest management programs with Joint Commission Environment of Care standards in mind, providing documentation packages that support your facility's IPM program records and trending data requirements.",
+          "Yes. Quest designs healthcare pest management programs with Joint Commission Environment of Care standards in mind, providing documentation packages that support your facility\'s IPM program records and trending data requirements.",
       },
       {
         question: 'What products do you use in clinical and patient care areas?',
@@ -482,7 +482,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Effective pest management for retail stores, shopping centers, and strip malls across Long Island and Queens — protecting stockrooms, loading docks, and customer-facing spaces.',
     intro:
-      "Retail businesses across Long Island and Queens face pest pressure from multiple directions: stockrooms and loading docks provide rodent and cockroach entry points, food-adjacent retail like grocery stores and delis attract a wide range of pest species, and high customer traffic creates constant re-introduction risk. Nassau County's major retail corridors along Hempstead Turnpike and Northern Boulevard — serving Hempstead, Garden City, Hicksville, and Westbury — host dense concentrations of strip malls, shopping centers, and standalone retailers. Suffolk County's commercial centers in Huntington and Patchogue anchor significant retail activity, while Queens' Flushing Main Street and Jamaica's commercial district serve high-volume retail environments with significant pest pressure from surrounding residential neighborhoods. A rodent spotted by a customer, cockroaches in a fitting room, or ants tracking across a display shelf creates immediate reputational damage in an era where every incident is photographed and posted. Quest Pest Control provides retail pest management that prioritizes customer-facing discretion and stockroom thoroughness.",
+      "Retail businesses across Long Island and Queens face pest pressure from multiple directions: stockrooms and loading docks provide rodent and cockroach entry points, food-adjacent retail like grocery stores and delis attract a wide range of pest species, and high customer traffic creates constant re-introduction risk. Nassau County\'s major retail corridors along Hempstead Turnpike and Northern Boulevard — serving Hempstead, Garden City, Hicksville, and Westbury — host dense concentrations of strip malls, shopping centers, and standalone retailers. Suffolk County\'s commercial centers in Huntington and Patchogue anchor significant retail activity, while Queens' Flushing Main Street and Jamaica\'s commercial district serve high-volume retail environments with significant pest pressure from surrounding residential neighborhoods. A rodent spotted by a customer, cockroaches in a fitting room, or ants tracking across a display shelf creates immediate reputational damage in an era where every incident is photographed and posted. Quest Pest Control provides retail pest management that prioritizes customer-facing discretion and stockroom thoroughness.",
     challenges: [
       {
         title: 'Stockroom and Loading Dock Vulnerabilities',
@@ -492,7 +492,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Food-Adjacent Retail Pest Pressure',
         description:
-          "Grocery stores, delis, candy shops, and pet supply stores in Nassau County's Hempstead Turnpike corridor and Flushing's retail district attract rodents, cockroaches, and stored-product pests — species that are difficult to control without a structured, regular program.",
+          "Grocery stores, delis, candy shops, and pet supply stores in Nassau County\'s Hempstead Turnpike corridor and Flushing\'s retail district attract rodents, cockroaches, and stored-product pests — species that are difficult to control without a structured, regular program.",
       },
       {
         title: 'Customer-Facing Pest Sightings',
@@ -502,7 +502,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Shared Walls in Strip Mall Settings',
         description:
-          "Many Long Island retailers operate in strip malls where pest pressure from neighboring tenants — particularly restaurants and food service operations — migrates through shared wall voids and utility chases. A tenant's pest problem becomes your problem without proper exclusion.",
+          "Many Long Island retailers operate in strip malls where pest pressure from neighboring tenants — particularly restaurants and food service operations — migrates through shared wall voids and utility chases. A tenant\'s pest problem becomes your problem without proper exclusion.",
       },
     ],
     solutions: [
@@ -546,7 +546,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         question: 'How do you handle rodent activity in a retail stockroom?',
         answer:
-          "Stockroom rodent programs combine mechanical exclusion at entry points (loading dock gaps, utility penetrations, door sweeps), interior snap trap placement in protected locations, and glue board monitoring — with exterior tamper-resistant bait stations at the building perimeter. We don't rely on a single method.",
+          "Stockroom rodent programs combine mechanical exclusion at entry points (loading dock gaps, utility penetrations, door sweeps), interior snap trap placement in protected locations, and glue board monitoring — with exterior tamper-resistant bait stations at the building perimeter. We don\'t rely on a single method.",
       },
       {
         question: 'We share walls with a restaurant in our strip mall. How do you address migration?',
@@ -571,7 +571,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Discreet, effective pest management for office buildings and corporate campuses across Long Island and Queens — break room programs, rodent exclusion, and scheduled service.',
     intro:
-      "Long Island's corporate office sector is anchored by Hauppauge Corporate Park — one of the largest industrial and office parks on the East Coast — along with major office districts in Garden City, Melville, and Mineola in Nassau County. Queens adds significant commercial office space in Long Island City's growing business district and Jamaica's civic and corporate corridor. Office buildings experience a narrower range of pest problems than restaurants or healthcare facilities, but the impact of those problems is disproportionate: a mouse in an executive suite, cockroaches in an employee break room, or ants trailing across a conference table creates employee complaints, HR issues, and potential health code concerns. Break rooms with food waste and communal dining areas are the primary pest attraction zones in office buildings. Quest Pest Control provides office-appropriate pest management that is discreet, effective, and minimally disruptive to the business day — with service windows during early morning, evenings, or weekends on request.",
+      "Long Island\'s corporate office sector is anchored by Hauppauge Corporate Park — one of the largest industrial and office parks on the East Coast — along with major office districts in Garden City, Melville, and Mineola in Nassau County. Queens adds significant commercial office space in Long Island City\'s growing business district and Jamaica\'s civic and corporate corridor. Office buildings experience a narrower range of pest problems than restaurants or healthcare facilities, but the impact of those problems is disproportionate: a mouse in an executive suite, cockroaches in an employee break room, or ants trailing across a conference table creates employee complaints, HR issues, and potential health code concerns. Break rooms with food waste and communal dining areas are the primary pest attraction zones in office buildings. Quest Pest Control provides office-appropriate pest management that is discreet, effective, and minimally disruptive to the business day — with service windows during early morning, evenings, or weekends on request.",
     challenges: [
       {
         title: 'Break Room and Kitchen Pest Attraction',
@@ -581,12 +581,12 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Rodent Entry in Corporate Campuses',
         description:
-          "Hauppauge Corporate Park and similar Long Island office campuses include buildings of varying ages with utility infrastructure that provides rodent entry opportunities. Older buildings in Garden City's office district and Mineola's civic center area frequently have basement utility areas with unprotected rodent entry points.",
+          "Hauppauge Corporate Park and similar Long Island office campuses include buildings of varying ages with utility infrastructure that provides rodent entry opportunities. Older buildings in Garden City\'s office district and Mineola\'s civic center area frequently have basement utility areas with unprotected rodent entry points.",
       },
       {
         title: 'Employee and Tenant Complaints',
         description:
-          "A pest sighting in a corporate office becomes an HR and facilities management issue immediately. Employees expect a professional environment, and a cockroach or mouse in a common area generates facility complaints that reflect on building management's responsiveness.",
+          "A pest sighting in a corporate office becomes an HR and facilities management issue immediately. Employees expect a professional environment, and a cockroach or mouse in a common area generates facility complaints that reflect on building management\'s responsiveness.",
       },
       {
         title: 'Seasonal Ant and Stinging Insect Pressure',
@@ -670,7 +670,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'HPD Complaints and Housing Code Violations',
         description:
-          "In New York City and Nassau County, tenant pest complaints can trigger HPD or housing court action if property owners don't respond promptly and document remediation. A history of pest violations on a building's record affects its value, financing, and tenant quality.",
+          "In New York City and Nassau County, tenant pest complaints can trigger HPD or housing court action if property owners don\'t respond promptly and document remediation. A history of pest violations on a building\'s record affects its value, financing, and tenant quality.",
       },
       {
         title: 'Consistent Standards Across Multiple Properties',
@@ -749,7 +749,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'WDO inspections and termite treatment for Long Island home sales — supporting real estate closings in Nassau and Suffolk County with lender-compliant reports and fast turnaround.',
     intro:
-      "Long Island's real estate market is among the most active in New York State, with Nassau County communities like Garden City, Great Neck, and Manhasset consistently ranking among the highest-value residential markets in the region. Suffolk County's Huntington, Smithtown, Babylon, and Islip towns see thousands of home sales annually — each requiring a Wood-Destroying Organism (WDO) inspection when mortgage lenders require it. Termites are endemic to Long Island's soil and climate conditions, and subterranean termite activity is discovered in a significant percentage of Nassau and Suffolk homes each year. A failed or deferred WDO inspection can delay or kill a real estate closing — a high-stakes outcome for buyers, sellers, and agents managing tight timelines. Quest Pest Control provides rapid WDO inspection turnaround, lender-compliant report formatting, and termite treatment programs designed to meet closing deadlines. We work directly with real estate agents, buyers' attorneys, and title companies to keep transactions moving.",
+      "Long Island\'s real estate market is among the most active in New York State, with Nassau County communities like Garden City, Great Neck, and Manhasset consistently ranking among the highest-value residential markets in the region. Suffolk County\'s Huntington, Smithtown, Babylon, and Islip towns see thousands of home sales annually — each requiring a Wood-Destroying Organism (WDO) inspection when mortgage lenders require it. Termites are endemic to Long Island\'s soil and climate conditions, and subterranean termite activity is discovered in a significant percentage of Nassau and Suffolk homes each year. A failed or deferred WDO inspection can delay or kill a real estate closing — a high-stakes outcome for buyers, sellers, and agents managing tight timelines. Quest Pest Control provides rapid WDO inspection turnaround, lender-compliant report formatting, and termite treatment programs designed to meet closing deadlines. We work directly with real estate agents, buyers' attorneys, and title companies to keep transactions moving.",
     challenges: [
       {
         title: 'Mortgage Lender WDO Requirements',
@@ -764,7 +764,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Subterranean Termite Activity in Long Island Soil',
         description:
-          "Long Island's sandy, well-drained soils provide ideal conditions for Eastern subterranean termites — the most destructive termite species in North America. Older homes in Huntington, Smithtown, and Babylon with crawl spaces or wood-to-soil contact are particularly vulnerable to active infestations.",
+          "Long Island\'s sandy, well-drained soils provide ideal conditions for Eastern subterranean termites — the most destructive termite species in North America. Older homes in Huntington, Smithtown, and Babylon with crawl spaces or wood-to-soil contact are particularly vulnerable to active infestations.",
       },
       {
         title: 'Other Wood-Destroying Organisms: Carpenter Ants and Beetles',
@@ -808,7 +808,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         question: 'What is a WDO inspection and when is it required?',
         answer:
-          "A Wood-Destroying Organism (WDO) inspection is a professional assessment of a home for termites, carpenter ants, wood-boring beetles, and fungal wood decay. It is required by many mortgage lenders — including FHA and VA — as a condition of loan approval, and is strongly recommended for any Long Island home purchase given the region's termite activity.",
+          "A Wood-Destroying Organism (WDO) inspection is a professional assessment of a home for termites, carpenter ants, wood-boring beetles, and fungal wood decay. It is required by many mortgage lenders — including FHA and VA — as a condition of loan approval, and is strongly recommended for any Long Island home purchase given the region\'s termite activity.",
       },
       {
         question: 'How quickly can you complete a WDO inspection and deliver the report?',
@@ -838,7 +838,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
     cardDescription:
       'Pest inspection and treatment programs for Airbnb and short-term rental properties across the Hamptons, Long Island, and Queens — protecting your reviews and your rental income.',
     intro:
-      "The Hamptons represent one of the most valuable short-term rental markets in the northeastern United States. East Hampton, Southampton, Sag Harbor, and Montauk command premium nightly rates for properties that host thousands of seasonal guests each year — guests who leave reviews that directly determine next year's rental income. Nassau County and Queens neighborhoods including Howard Beach and the Rockaways have seen significant growth in Airbnb listings serving beach-area travelers and airport-adjacent guests. New York City's Local Law 18, which restricts most short-term rentals in the five boroughs, has shifted some Queens STR hosts toward compliance-intensive operating models where every aspect of guest experience matters. A bed bug report on Airbnb, a cockroach photographed in a kitchen, or a mouse sighting communicated to guests creates immediate platform consequences: negative reviews, guest refunds, and potential Airbnb listing suspension. Quest Pest Control provides pre-season inspection programs, between-stay spot checks, and rapid response protocols for STR hosts across Long Island and Queens.",
+      "The Hamptons represent one of the most valuable short-term rental markets in the northeastern United States. East Hampton, Southampton, Sag Harbor, and Montauk command premium nightly rates for properties that host thousands of seasonal guests each year — guests who leave reviews that directly determine next year\'s rental income. Nassau County and Queens neighborhoods including Howard Beach and the Rockaways have seen significant growth in Airbnb listings serving beach-area travelers and airport-adjacent guests. New York City\'s Local Law 18, which restricts most short-term rentals in the five boroughs, has shifted some Queens STR hosts toward compliance-intensive operating models where every aspect of guest experience matters. A bed bug report on Airbnb, a cockroach photographed in a kitchen, or a mouse sighting communicated to guests creates immediate platform consequences: negative reviews, guest refunds, and potential Airbnb listing suspension. Quest Pest Control provides pre-season inspection programs, between-stay spot checks, and rapid response protocols for STR hosts across Long Island and Queens.",
     challenges: [
       {
         title: 'Bed Bugs Introduced by Rotating Guests',
@@ -858,7 +858,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'NYC Local Law 18 and Queens STR Compliance',
         description:
-          "Queens Airbnb hosts operating under Local Law 18's registered host framework face heightened scrutiny of their properties' habitability standards. Pest issues that generate complaints create additional compliance risk for registered short-term rental operators.",
+          "Queens Airbnb hosts operating under Local Law 18\'s registered host framework face heightened scrutiny of their properties' habitability standards. Pest issues that generate complaints create additional compliance risk for registered short-term rental operators.",
       },
     ],
     solutions: [
@@ -880,7 +880,7 @@ export const COMMERCIAL_VERTICALS: CommercialVertical[] = [
       {
         title: 'Rapid Response for Active Pest Reports',
         description:
-          "When a guest reports a pest issue during their stay, Quest provides priority response for STR accounts — same-day or next-morning inspection and treatment to resolve the issue, document the response, and protect the host's ability to provide compensation and manage the review.",
+          "When a guest reports a pest issue during their stay, Quest provides priority response for STR accounts — same-day or next-morning inspection and treatment to resolve the issue, document the response, and protect the host\'s ability to provide compensation and manage the review.",
       },
     ],
     serviceAreas: [
