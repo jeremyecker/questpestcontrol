@@ -21,7 +21,7 @@ export const BRAND = {
   accentColor: '#FF8C00',
   yearFounded: 2003,
   region: 'Suffolk County, Nassau County & Queens',
-  webhookUrl: '',
+  webhookUrl: 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-questpest',
 } as const;
 
 // ============================================================
