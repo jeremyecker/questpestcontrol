@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
 import { BRAND, REGIONS } from '@/hub.config';
 import { questTownOpeners } from '@/lib/quest-town-openers';
+import { questCityFaqs, questNearbyTowns, questNeighborhoods } from '@/lib/quest-layer7-data';
 
 // ─── Region-differentiated FAQ data ───────────────────────────────────────────
 const REGION_FAQS: Record<string, { q: string; a: string }[]> = {
@@ -125,13 +126,21 @@ export default async function TownPage({
   const isValidTown = region.towns.some(t => toTownSlug(t) === townSlug);
   if (!isValidTown && region.towns.length > 0) notFound();
 
-  const rawFaqs = REGION_FAQS[regionSlug] ?? REGION_FAQS['suffolk'];
+  // ── Layer 7: city-specific FAQs or fall back to region FAQs ──
+  const cityFaqs = questCityFaqs[townSlug];
+  const rawFaqs = cityFaqs ?? (REGION_FAQS[regionSlug] ?? REGION_FAQS['suffolk']);
   const faqs = rawFaqs.map(({ q, a }) => ({
     q: q.replace(/\{town\}/g, townName),
     a: a.replace(/\{town\}/g, townName),
   }));
 
-  const nearbyTowns = getNearbyTowns(region.towns, townSlug);
+  // ── Layer 7: curated nearby towns or fall back to array-position logic ──
+  const curatedNearby = questNearbyTowns[townSlug];
+  const nearbyTowns = curatedNearby ?? getNearbyTowns(region.towns, townSlug);
+
+  // ── Layer 7: neighborhood highlights ──
+  const neighborhoods = questNeighborhoods[townSlug] ?? null;
+
   const townOpener = questTownOpeners[townSlug] ?? null;
 
   const canonicalUrl = `https://${BRAND.domain}/${regionSlug}/${townSlug}/`;
@@ -342,6 +351,29 @@ export default async function TownPage({
             </div>
           </div>
         </section>
+
+        {/* ── Neighborhood Highlights (Layer 7) ── */}
+        {neighborhoods && neighborhoods.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Neighborhoods We Serve in {townName}
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Quest Pest Control knows {townName}&apos;s distinct neighborhoods and their unique pest challenges.
+            </p>
+            <div className="grid md:grid-cols-3 gap-5">
+              {neighborhoods.map(({ name, context }) => (
+                <div
+                  key={name}
+                  className="bg-green-50 border border-green-100 rounded-xl p-5"
+                >
+                  <h3 className="font-bold text-gray-900 mb-2">{name}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{context}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* ── FAQs ── */}
         <section className="mb-14">
