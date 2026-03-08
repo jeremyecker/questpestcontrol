@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
 import { getAllBlogPosts } from '@/lib/blog-posts';
+import { LEAD_CAPTURE_REGIONS, LEAD_CAPTURE_INTENT_SLUGS } from '@/lib/quest-lead-capture-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
@@ -35,6 +36,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
+      });
+    }
+  }
+
+  // Lead capture pages — 3 regions × 6 intents = 18 pages
+  for (const region of LEAD_CAPTURE_REGIONS) {
+    for (const intent of LEAD_CAPTURE_INTENT_SLUGS) {
+      entries.push({
+        url: `${base}/${region}/${intent}/`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
       });
     }
   }
