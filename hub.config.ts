@@ -25,6 +25,20 @@ export const BRAND = {
 } as const;
 
 // ============================================================
+// LEAD CAPTURE INTENTS
+// ============================================================
+export const LEAD_CAPTURE_INTENTS = [
+  'pest-control-near-me',
+  'exterminator-near-me',
+  'emergency-pest-control',
+  'same-day-pest-control',
+  'bed-bug-exterminator',
+  'free-pest-inspection',
+] as const;
+
+export type LeadCaptureIntent = (typeof LEAD_CAPTURE_INTENTS)[number];
+
+// ============================================================
 // GMBs — add as acquired
 // ============================================================
 export const GMBS = [] as GMBEntry[];
