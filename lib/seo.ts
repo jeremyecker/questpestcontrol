@@ -158,7 +158,7 @@ export function breadcrumbSchema(items: BreadcrumbItem[]) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      item: item.href ? canonicalUrl(item.href) : undefined,
+      item: canonicalUrl(item.href || '/'),
     })),
   };
 }
