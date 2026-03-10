@@ -24,6 +24,17 @@ export const PHONE = '(631) 228-4498';
 export const PHONE_RAW = '+16312284498';
 export const PHONE_HREF = 'tel:+16312284498';
 
+export const REGION_PHONES: Record<string, { display: string; href: string }> = {
+  suffolk: { display: '(631) 228-4498', href: 'tel:+16312284498' },
+  nassau:  { display: '(631) 228-4498', href: 'tel:+16312284498' },
+  queens:  { display: '(347) 343-6496', href: 'tel:+13473436496' },
+};
+
+export const HOMEPAGE_PHONES = [
+  { label: 'Long Island', display: '(631) 228-4498', href: 'tel:+16312284498' },
+  { label: 'NYC / Queens', display: '(347) 343-6496', href: 'tel:+13473436496' },
+];
+
 export const GEO = {
   county: 'Suffolk',
   countyFull: 'Suffolk County',
