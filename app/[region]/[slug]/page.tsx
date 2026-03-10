@@ -181,6 +181,12 @@ export default async function SlugPage({
       url: `https://${BRAND.domain}`,
       telephone: BRAND.phoneFormatted,
       email: BRAND.email,
+      image: `https://${BRAND.domain}/images/og-default.jpg`,
+      address: {
+        '@type': 'PostalAddress',
+        addressRegion: 'NY',
+        addressCountry: 'US',
+      },
       areaServed: page.towns.map((town) => ({
         '@type': 'City',
         name: town,
@@ -385,6 +391,7 @@ export default async function SlugPage({
     url: `https://${BRAND.domain}`,
     telephone: BRAND.phoneFormatted,
     email: BRAND.email,
+    image: `https://${BRAND.domain}/images/og-default.jpg`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: townName,
