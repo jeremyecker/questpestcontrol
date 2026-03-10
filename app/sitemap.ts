@@ -5,11 +5,30 @@ import { getAllBlogPosts } from '@/lib/blog-posts';
 import { LEAD_CAPTURE_REGIONS, LEAD_CAPTURE_INTENT_SLUGS } from '@/lib/quest-lead-capture-data';
 import { COMMERCIAL_VERTICALS } from '@/lib/quest-commercial-data';
 
+const TOP_LEVEL_LEAD_CAPTURE_SLUGS = [
+  'pest-control-near-me',
+  'exterminator-near-me',
+  'emergency-pest-control',
+  'same-day-pest-control',
+  'bed-bug-exterminator',
+  'free-pest-inspection',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
   const entries: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
   ];
+
+  // Top-level lead capture pages
+  for (const slug of TOP_LEVEL_LEAD_CAPTURE_SLUGS) {
+    entries.push({
+      url: `${base}/${slug}/`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    });
+  }
 
   for (const region of REGIONS) {
     const regionBase = `${base}/${region.slug}`;
