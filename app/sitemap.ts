@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Top-level lead capture pages
   for (const slug of TOP_LEVEL_LEAD_CAPTURE_SLUGS) {
     entries.push({
-      url: `${base}/${slug}/`,
+      url: `${base}/${slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -33,16 +33,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const region of REGIONS) {
     const regionBase = `${base}/${region.slug}`;
     entries.push(
-      { url: `${regionBase}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-      { url: `${regionBase}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-      { url: `${regionBase}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-      { url: `${regionBase}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-      { url: `${regionBase}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+      { url: `${regionBase}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+      { url: `${regionBase}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+      { url: `${regionBase}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     );
 
     for (const service of SERVICES) {
       entries.push({
-        url: `${regionBase}/services/${service.slug}/`,
+        url: `${regionBase}/services/${service.slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.7,
@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const town of region.towns) {
       const townSlug = town.toLowerCase().replace(/\s+/g, '-');
       entries.push({
-        url: `${regionBase}/${townSlug}/`,
+        url: `${regionBase}/${townSlug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
@@ -64,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const region of LEAD_CAPTURE_REGIONS) {
     for (const intent of LEAD_CAPTURE_INTENT_SLUGS) {
       entries.push({
-        url: `${base}/${region}/${intent}/`,
+        url: `${base}/${region}/${intent}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Commercial pages — index + 10 verticals
   entries.push({
-    url: `${base}/commercial/`,
+    url: `${base}/commercial`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.8,
@@ -82,7 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const vertical of COMMERCIAL_VERTICALS) {
     entries.push({
-      url: `${base}/commercial/${vertical.slug}/`,
+      url: `${base}/commercial/${vertical.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.75,
