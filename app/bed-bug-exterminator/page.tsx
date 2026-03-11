@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { BRAND } from '@/hub.config';
 
 export const metadata: Metadata = {
-  title: 'Bed Bug Exterminator | Long Island & Queens NY | Quest Pest Control',
+  title: 'Bed Bug Exterminator | Long Island & Queens NY',
   description: 'Professional bed bug extermination in Suffolk County, Nassau County & Queens. Thorough inspections, proven treatments. Call (631) 228-4498.',
   alternates: {
     canonical: 'https://questpest.net/bed-bug-exterminator/',

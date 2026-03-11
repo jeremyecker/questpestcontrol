@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { BRAND } from '@/hub.config';
 
 export const metadata: Metadata = {
-  title: 'Free Pest Inspection | Long Island & Queens NY | Quest Pest Control',
+  title: 'Free Pest Inspection | Long Island & Queens NY',
   description: 'Free pest inspection in Suffolk County, Nassau County & Queens. Licensed technicians inspect for termites, rodents, bed bugs & more. Call (631) 228-4498.',
   alternates: {
     canonical: 'https://questpest.net/free-pest-inspection/',

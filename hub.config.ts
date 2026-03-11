@@ -92,6 +92,10 @@ const SUFFOLK_TOWNS = [
   'South Jamesport', 'Southampton', 'Southold', 'Speonk', 'Stony Brook',
   'Wading River', 'Wainscott', 'Water Mill', 'West Babylon', 'West Islip',
   'West Sayville', 'Westhampton', 'Westhampton Beach', 'Wyandanch', 'Yaphank',
+  'Amagansett', 'Asharoken', 'Baiting Hollow', 'North Bay Shore', 'Napeague',
+  'Centerport', 'St James', 'Hither Hills', 'Terryville', 'Springs',
+  'Belle Terre', 'North Lindenhurst', 'Cherry Grove', 'Half Hollow Hills',
+  'Setauket', 'Lloyd Neck', 'Hampton Bays',
 ];
 const NASSAU_TOWNS = [
   'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
@@ -108,6 +112,10 @@ const NASSAU_TOWNS = [
   'Sea Cliff', 'Seaford', 'South Farmingdale', 'South Floral Park',
   'South Hempstead', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
   'West Hempstead', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere',
+  'Alden Manor', 'Albertson', 'Milburn', 'Stewart Manor', 'Oyster Bay Cove',
+  'East Williston', 'Kings Point', 'Plandome', 'North Wantagh', 'Rosedale',
+  'Great Neck Estates', 'East Norwich', 'East Garden City', 'South Freeport',
+  'West Valley Stream', 'New Cassel', 'Lake Success',
 ];
 const QUEENS_TOWNS = [
   'Arverne', 'Astoria', 'Bayside', 'Bellerose', 'Briarwood',
@@ -118,6 +126,11 @@ const QUEENS_TOWNS = [
   'Jamaica', 'Kew Gardens', 'Little Neck', 'Long Island City',
   'Maspeth', 'Middle Village', 'Oakland Gardens', 'Ozone Park',
   'Rego Park', 'Richmond Hill', 'Ridgewood', 'Woodhaven',
+  'Woodside', 'Edgemere', 'Jamaica Estates', 'South Ozone Park', 'Bayswater',
+  'Jamaica Hills', 'Hunters Point', 'Ditmars Steinway', 'Auburndale', 'Whitestone',
+  'Murray Hill', 'Hamilton Beach', 'St Albans', 'Queens Village', 'South Jamaica',
+  'Kew Gardens Hills', 'Bushwick', 'Old Howard Beach', 'Lindenwood', 'Sunnyside',
+  'Hollis Hills', 'Broad Channel', 'South Richmond Hill',
 ];
 
 export const REGIONS: RegionConfig[] = [

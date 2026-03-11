@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { BRAND } from '@/hub.config';
 
 export const metadata: Metadata = {
-  title: 'Pest Control Near Me | Long Island & Queens NY | Quest Pest Control',
+  title: 'Pest Control Near Me | Long Island & Queens NY',
   description: 'Looking for pest control near you? Quest serves Suffolk County, Nassau County & Queens. Same-day service, licensed local technicians. Call (631) 228-4498.',
   alternates: {
     canonical: 'https://questpest.net/pest-control-near-me/',

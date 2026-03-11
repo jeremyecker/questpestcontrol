@@ -143,7 +143,7 @@ export async function generateMetadata({
   if (!region) return {};
   const townName = toTownName(slug);
   return {
-    title: `Pest Control in ${townName}, ${region.stateCode} | ${BRAND.name}`,
+    title: `Pest Control in ${townName}, ${region.stateCode}`,
     description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
   };
 }
@@ -386,27 +386,30 @@ export default async function SlugPage({
 
   const localBusinessSchema = {
     '@context': 'https://schema.org',
-    '@type': 'PestControlService',
+    '@type': 'LocalBusiness',
+    '@id': `https://${BRAND.domain}/${regionSlug}/${townSlug}/`,
     name: BRAND.name,
-    url: `https://${BRAND.domain}`,
-    telephone: BRAND.phoneFormatted,
-    email: BRAND.email,
-    image: `https://${BRAND.domain}/images/og-default.jpg`,
+    image: `https://${BRAND.domain}/opengraph-image.png`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: townName,
       addressRegion: region.stateCode,
       addressCountry: 'US',
     },
+    description: `Professional pest control services in ${townName}, ${region.stateCode}. Licensed and insured. Same-day service available.`,
+    url: `https://${BRAND.domain}`,
+    telephone: `+1${BRAND.phone}`,
+    email: BRAND.email,
+    priceRange: '$$',
     areaServed: {
       '@type': 'City',
       name: townName,
+      containedInPlace: {
+        '@type': 'AdministrativeArea',
+        name: region.stateName,
+      },
     },
-    priceRange: '$$',
-    openingHours: 'Mo-Su 07:00-19:00',
-    hasMap: `https://www.google.com/maps/search/${encodeURIComponent(
-      `${BRAND.name} ${townName} ${region.stateCode}`
-    )}`,
+    hasMap: `https://www.google.com/maps/search/${encodeURIComponent(BRAND.name + ' ' + townName + ' ' + region.stateCode)}`,
   };
 
   const breadcrumbSchema = {

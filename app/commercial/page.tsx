@@ -4,7 +4,7 @@ import { BRAND } from '@/hub.config';
 import { COMMERCIAL_VERTICALS } from '@/lib/quest-commercial-data';
 
 export const metadata: Metadata = {
-  title: `Commercial Pest Control: Long Island and Queens | ${BRAND.name}`,
+  title: 'Commercial Pest Control: Long Island and Queens',
   description:
     'Professional commercial pest control programs for Long Island and Queens businesses. Restaurants, hotels, apartments, schools, healthcare, retail, offices, and more. Licensed, insured. Call (631) 228-4498.',
 };
