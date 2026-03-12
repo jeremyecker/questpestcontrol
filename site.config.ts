@@ -12,7 +12,7 @@ export const SITE_NAME = 'Quest Pest Control';
 export const SITE_DOMAIN = 'questpest.net';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://questpest.net';
 export const SITE_TAGLINE = 'On a Quest to Eliminate Pests — Suffolk, Nassau & Queens';
-export const SITE_DESCRIPTION = 'Locally owned pest control serving Suffolk County, Nassau County & Queens. Over 20 years of experience. Licensed, insured, and eco-friendly treatments. Free estimates, fast response.';
+export const SITE_DESCRIPTION = 'Local pest control for Suffolk, Nassau & Queens. 20+ years experience. Licensed, insured, eco-friendly. Free estimates.';
 export const EMAIL = 'info@questpest.net';
 
 export const SITE = {
@@ -79,11 +79,11 @@ export const SERVICES = [
   { name: 'Ant Control', slug: 'ant-control', icon: '🐜', description: 'Keep ants out of your kitchen and away from your family. Effective, family-friendly treatments.' },
   { name: 'Termite Treatment', slug: 'termite-treatment', icon: '🪵', description: 'Protect your biggest investment. Expert termite inspections and treatment.' },
   { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '🛏️', description: 'Help your family sleep easy again. Thorough bed bug removal using proven treatments.' },
-  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐀', description: "Mice and rats don\'t belong near your family. We remove them and seal entry points." },
+  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐀', description: "Mice and rats don't belong near your family. We remove them and seal entry points." },
   { name: 'Cockroach Control', slug: 'cockroach-control', icon: '🪳', description: 'Complete cockroach elimination that protects your family and home.' },
   { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟', description: 'Take back your backyard. Family-friendly mosquito treatments for outdoor enjoyment.' },
   { name: 'Spider Control', slug: 'spider-control', icon: '🕷️', description: 'No more surprises in the basement or garage. Thorough spider removal for your whole home.' },
-  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '🐝', description: "Protect your family from stinging insects. We\'ll remove nests from your property." },
+  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '🐝', description: "Protect your family from stinging insects. We'll remove nests from your property." },
   { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '🦗', description: 'Protect your family and pets. Professional flea and tick control for home and yard.' },
   { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝', description: 'Raccoons in the attic? Humane removal that protects your family.' },
   { name: 'Commercial Pest Control', slug: 'commercial-pest-control', icon: '🏢', description: 'Customized pest management for businesses. Discreet, reliable, effective.' },
@@ -112,7 +112,7 @@ export const LEAD_ROUTING = {
 
 export const SEO = {
   titleTemplate: (pageTitle: string) => `${pageTitle} | Quest Pest Control`,
-  defaultTitle: 'Quest Pest Control | Licensed Exterminators in Suffolk, Nassau & Queens',
+  defaultTitle: 'Quest Pest Control | Suffolk, Nassau & Queens',
   defaultDescription: SITE_DESCRIPTION,
   ogImage: '/images/og-default.jpg',
 } as const;
@@ -158,7 +158,7 @@ export const REVIEWS = [
   {
     name: "Sean L.",
     rating: 5,
-    text: "I have been using Quest Pest Control for over a year to control camelback crickets in my house and they have done a superb job. Ani, one of their service technicians, is absolutely the best. She is courteous and efficient. A pro’s pro. I wholeheartedly recommend them.",
+    text: "I have been using Quest Pest Control for over a year to control camelback crickets in my house and they have done a superb job. Ani, one of their service technicians, is absolutely the best. She is courteous and efficient. A pro's pro. I wholeheartedly recommend them.",
     date: "1 month ago",
     source: "Google"
   },
