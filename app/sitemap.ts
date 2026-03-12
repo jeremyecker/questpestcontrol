@@ -70,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Lead capture pages — 3 regions × 6 intents = 18 pages
+  // Lead capture pages — 3 regions x 6 intents = 18 pages
   for (const region of LEAD_CAPTURE_REGIONS) {
     for (const intent of LEAD_CAPTURE_INTENT_SLUGS) {
       entries.push({
@@ -119,6 +119,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     });
   }
+
+  // Service+city pages (5 services x all towns)
+  const SERVICE_SLUGS = ['bed-bug-exterminator', 'raccoon-removal', 'rodent-control', 'squirrel-removal', 'wildlife-removal'];
+  entries.push(
+    ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
+      SERVICE_SLUGS.flatMap(service =>
+        region.towns.map((town: string) => ({
+          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}`,
+          lastModified: new Date(),
+          changeFrequency: 'monthly' as const,
+          priority: 0.8,
+        }))
+      )
+    )
+  );
 
   return entries;
 }
