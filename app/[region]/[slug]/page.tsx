@@ -135,6 +135,12 @@ export async function generateMetadata({
       alternates: {
         canonical: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
       },
+      openGraph: {
+        title: page.metaTitle,
+        description: page.metaDescription,
+        url: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
+        images: [{ url: `https://${BRAND.domain}/og-image.png` }],
+      },
     };
   }
 
@@ -145,6 +151,12 @@ export async function generateMetadata({
   return {
     title: `Pest Control in ${townName}, ${region.stateCode}`,
     description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
+    openGraph: {
+      title: `Pest Control in ${townName}, ${region.stateCode}`,
+      description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
+      url: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
+      images: [{ url: `https://${BRAND.domain}/og-image.png` }],
+    },
   };
 }
 

@@ -14,6 +14,12 @@ export async function generateMetadata(
     title: page.metaTitle,
     description: page.metaDescription,
     alternates: { canonical: `https://questpestcontrol.com/${region}/${LEAD_TYPE}` },
+    openGraph: {
+      title: page.metaTitle,
+      description: page.metaDescription,
+      url: `https://questpestcontrol.com/${region}/${LEAD_TYPE}`,
+      images: [{ url: `https://questpestcontrol.com/og-image.png` }],
+    },
   };
 }
 
