@@ -8,6 +8,10 @@ interface LeadCapturePageProps {
   leadType: string;
 }
 
+function toTownSlug(town: string) {
+  return town.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+}
+
 export default function LeadCapturePage({ region, leadType }: LeadCapturePageProps) {
   const page = getLeadCapturePage(region, leadType);
   if (!page) notFound();
@@ -153,9 +157,10 @@ export default function LeadCapturePage({ region, leadType }: LeadCapturePagePro
             <p className="text-gray-600 mb-4">{BRAND.name} provides {p.title.toLowerCase()} service throughout the area, including:</p>
             <div className="flex flex-wrap gap-2">
               {p.towns.map(town => (
-                <span key={town} className="bg-green-50 border border-green-200 text-green-800 px-3 py-1 rounded text-sm">
+                <Link key={town} href={`/${region}/${leadType}/${toTownSlug(town)}`}
+                  className="bg-green-50 border border-green-200 text-green-800 px-3 py-1 rounded text-sm hover:bg-green-100 transition">
                   {town}
-                </span>
+                </Link>
               ))}
               <Link href={`/${region}`}
                 className="bg-green-700 text-white px-3 py-1 rounded text-sm hover:bg-green-800 transition">
