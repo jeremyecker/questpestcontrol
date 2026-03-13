@@ -548,7 +548,7 @@ export const leadCapturePages: LeadCapturePage[] = [
       },
     ],
     urgencyText: 'Get your free Queens pest inspection this week — call now to schedule.',
-  },,
+  },
 // ─────────────────────────────────────────────
   // SUFFOLK COUNTY — Wildlife Services
   // ─────────────────────────────────────────────
