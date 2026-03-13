@@ -10,6 +10,9 @@ const nextConfig = {
       { source: '/queens/inwood', destination: '/nassau/inwood', permanent: true },
       { source: '/queens/lawrence', destination: '/nassau/lawrence', permanent: true },
       { source: '/nassau/melville', destination: '/suffolk/melville', permanent: true },
+      // St. town 404 fixes
+      { source: '/suffolk/st.-james', destination: '/suffolk/saint-james', permanent: true },
+      { source: '/queens/st.-albans', destination: '/queens/st-albans', permanent: true },
     ];
   },
   images: {
