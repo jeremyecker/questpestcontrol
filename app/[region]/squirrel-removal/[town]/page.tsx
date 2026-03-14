@@ -60,11 +60,14 @@ export async function generateMetadata({
   return {
     title: pageTitle,
     description: description.length <= 155 ? description : description.slice(0, 152) + '...',
-    alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}` },
+    alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}/` },
     openGraph: {
       title: ogTitle,
       description,
-      url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}`,
+      url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}/`,
+      type: 'website',
+      siteName: BRAND.name,
+      locale: 'en_US',
       images: [{ url: `https://${BRAND.domain}/og-image.png` }],
     },
   };

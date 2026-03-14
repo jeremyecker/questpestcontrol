@@ -17,13 +17,13 @@ const TOP_LEVEL_LEAD_CAPTURE_SLUGS = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
   const entries: MetadataRoute.Sitemap = [
-    { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
+    { url: `${base}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
   ];
 
   // Top-level lead capture pages
   for (const slug of TOP_LEVEL_LEAD_CAPTURE_SLUGS) {
     entries.push({
-      url: `${base}/${slug}`,
+      url: `${base}/${slug}/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Individual service pages
   for (const service of SERVICES) {
     entries.push({
-      url: `${base}/services/${service.slug}`,
+      url: `${base}/services/${service.slug}/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -44,15 +44,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const regionBase = `${base}/${region.slug}`;
     entries.push(
       { url: `${regionBase}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-      { url: `${regionBase}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-      { url: `${regionBase}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-      { url: `${regionBase}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-      { url: `${regionBase}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+      { url: `${regionBase}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+      { url: `${regionBase}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     );
 
     for (const service of SERVICES) {
       entries.push({
-        url: `${regionBase}/services/${service.slug}`,
+        url: `${regionBase}/services/${service.slug}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.7,
@@ -62,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const town of region.towns) {
       const townSlug = town.toLowerCase().replace(/\s+/g, '-');
       entries.push({
-        url: `${regionBase}/${townSlug}`,
+        url: `${regionBase}/${townSlug}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const region of LEAD_CAPTURE_REGIONS) {
     for (const intent of LEAD_CAPTURE_INTENT_SLUGS) {
       entries.push({
-        url: `${base}/${region}/${intent}`,
+        url: `${base}/${region}/${intent}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
@@ -84,18 +84,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Static pages
   entries.push(
-    { url: `${base}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${base}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${base}/reviews`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/terms/`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/privacy/`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/reviews/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   );
 
   // Commercial pages — index + 10 verticals
   entries.push({
-    url: `${base}/commercial`,
+    url: `${base}/commercial/`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.8,
@@ -103,7 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const vertical of COMMERCIAL_VERTICALS) {
     entries.push({
-      url: `${base}/commercial/${vertical.slug}`,
+      url: `${base}/commercial/${vertical.slug}/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.75,
@@ -113,7 +113,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();
   for (const post of blogPosts) {
     entries.push({
-      url: `https://questpest.net/blog/${post.slug}`,
+      url: `https://questpest.net/blog/${post.slug}/`,
       lastModified: post.date,
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -126,7 +126,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
       SERVICE_SLUGS.flatMap(service =>
         region.towns.map((town: string) => ({
-          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}`,
+          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}/`,
           lastModified: new Date(),
           changeFrequency: 'monthly' as const,
           priority: 0.8,

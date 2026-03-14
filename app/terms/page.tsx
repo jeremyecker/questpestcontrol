@@ -4,6 +4,15 @@ import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS } from '@/site.config';
 export const metadata: Metadata = {
   title: `Terms of Service | ${SITE_NAME}`,
   description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+  alternates: { canonical: 'https://questpest.net/terms/' },
+  openGraph: {
+    title: `Terms of Service | ${SITE_NAME}`,
+    description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+    url: 'https://questpest.net/terms/',
+    type: 'website',
+    siteName: SITE_NAME,
+    locale: 'en_US',
+  },
 };
 
 export default function TermsPage() {
