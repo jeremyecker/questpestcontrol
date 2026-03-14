@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { getLeadCapturePage } from '@/lib/quest-lead-capture-data';
 import LeadCapturePage from '@/components/LeadCapturePage';
+import { SITE_NAME, SITE_URL } from '@/site.config';
+import { canonicalUrl } from '@/lib/utils';
 
 const LEAD_TYPE = 'bed-bug-exterminator';
 
@@ -10,10 +12,20 @@ export async function generateMetadata(
   const { region } = await params;
   const page = getLeadCapturePage(region, LEAD_TYPE);
   if (!page) return {};
+  const canonical = canonicalUrl(`/${region}/${LEAD_TYPE}`);
   return {
     title: page.metaTitle,
     description: page.metaDescription,
-    alternates: { canonical: `https://questpestcontrol.com/${region}/${LEAD_TYPE}` },
+    alternates: { canonical },
+    openGraph: {
+      title: page.metaTitle,
+      description: page.metaDescription,
+      url: canonical,
+      siteName: SITE_NAME,
+      locale: 'en_US',
+      type: 'website',
+      images: [{ url: `${SITE_URL}/og-image.png` }],
+    },
   };
 }
 

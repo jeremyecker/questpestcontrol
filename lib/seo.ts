@@ -30,6 +30,7 @@ export function generatePageMetadata({
       description,
       url: canonical,
       siteName: SITE_NAME,
+      locale: 'en_US',
       type: 'website',
       images: [{ url: resolvedOgImage }],
     },

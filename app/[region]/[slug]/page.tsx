@@ -139,6 +139,9 @@ export async function generateMetadata({
         title: page.metaTitle,
         description: page.metaDescription,
         url: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
+        siteName: BRAND.name,
+        locale: 'en_US',
+        type: 'website',
         images: [{ url: `https://${BRAND.domain}/og-image.png` }],
       },
     };
@@ -156,6 +159,9 @@ export async function generateMetadata({
       title: `Pest Control in ${townName}, ${region.stateCode}`,
       description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
       url: `https://${BRAND.domain}/${regionSlug}/${slug}`,
+      siteName: BRAND.name,
+      locale: 'en_US',
+      type: 'website',
       images: [{ url: `https://${BRAND.domain}/og-image.png` }],
     },
   };

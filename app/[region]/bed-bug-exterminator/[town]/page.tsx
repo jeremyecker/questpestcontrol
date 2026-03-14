@@ -65,6 +65,9 @@ export async function generateMetadata({
       title: ogTitle,
       description,
       url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}`,
+      siteName: BRAND.name,
+      locale: 'en_US',
+      type: 'website',
       images: [{ url: `https://${BRAND.domain}/og-image.png` }],
     },
   };
