@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
+    url: SITE_URL,
     siteName: SITE_NAME,
     locale: 'en_US',
     images: ['/og-image.png'],
