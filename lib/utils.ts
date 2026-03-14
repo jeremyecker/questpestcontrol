@@ -5,8 +5,8 @@ import { SITE_URL } from '@/site.config';
  */
 export function canonicalUrl(path: string = '/'): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  const normalizedPath = cleanPath === '/' ? cleanPath : cleanPath.replace(/\/$/, '');
-  return `${SITE_URL}${normalizedPath === '/' ? '' : normalizedPath}`;
+  const withSlash = cleanPath === '/' ? '/' : cleanPath.replace(/\/$/, '') + '/';
+  return `${SITE_URL}${withSlash === '/' ? '/' : withSlash}`;
 }
 
 /**

@@ -151,11 +151,11 @@ export async function generateMetadata({
   return {
     title: `Pest Control in ${townName}, ${region.stateCode}`,
     description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
-    alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${slug}` },
+    alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${slug}/` },
     openGraph: {
       title: `Pest Control in ${townName}, ${region.stateCode}`,
       description: `Professional pest control in ${townName}, ${region.stateCode}. Same-day service, licensed & insured. Call ${BRAND.phoneFormatted} for a free inspection.`,
-      url: `https://${BRAND.domain}/${regionSlug}/${slug}`,
+      url: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
       images: [{ url: `https://${BRAND.domain}/og-image.png` }],
     },
   };
