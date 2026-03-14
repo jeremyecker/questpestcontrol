@@ -586,7 +586,7 @@ export default async function SlugPage({
                 with discreet service for homes and apartments.
               </p>
               <Link
-                href={`/${regionSlug}/contact/`}
+                href={`/${regionSlug}/bed-bug-exterminator/${townSlug}/`}
                 className="text-brand-primary font-semibold text-sm hover:underline"
               >
                 Schedule Service →
@@ -601,7 +601,52 @@ export default async function SlugPage({
                 We stop rodents from coming back.
               </p>
               <Link
-                href={`/${regionSlug}/contact/`}
+                href={`/${regionSlug}/rodent-control/${townSlug}/`}
+                className="text-brand-primary font-semibold text-sm hover:underline"
+              >
+                Schedule Service →
+              </Link>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-3xl mb-3">🦝</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Raccoon Removal</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Safe, humane raccoon removal and exclusion. We seal entry points to prevent re-entry
+                and clean up any damage left behind.
+              </p>
+              <Link
+                href={`/${regionSlug}/raccoon-removal/${townSlug}/`}
+                className="text-brand-primary font-semibold text-sm hover:underline"
+              >
+                Schedule Service →
+              </Link>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-3xl mb-3">🐿️</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Squirrel Removal</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Squirrels in the attic cause serious damage. We trap, remove, and exclude squirrels
+                from your home with lasting results.
+              </p>
+              <Link
+                href={`/${regionSlug}/squirrel-removal/${townSlug}/`}
+                className="text-brand-primary font-semibold text-sm hover:underline"
+              >
+                Schedule Service →
+              </Link>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-3xl mb-3">🦔</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Wildlife Removal</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                From opossums to groundhogs, we handle all wildlife intrusions humanely and
+                prevent them from returning.
+              </p>
+              <Link
+                href={`/${regionSlug}/wildlife-removal/${townSlug}/`}
                 className="text-brand-primary font-semibold text-sm hover:underline"
               >
                 Schedule Service →

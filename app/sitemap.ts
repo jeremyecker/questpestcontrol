@@ -85,6 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   entries.push(
     { url: `${base}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     { url: `${base}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/terms/`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
@@ -113,7 +114,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();
   for (const post of blogPosts) {
     entries.push({
-      url: `https://questpest.net/blog/${post.slug}/`,
+      url: `${base}/blog/${post.slug}/`,
       lastModified: post.date,
       changeFrequency: 'monthly',
       priority: 0.6,
