@@ -451,14 +451,14 @@ export const questNearbyTowns: Record<string, string[]> = {
   'southampton': ['Water Mill', 'Bridgehampton', 'Hampton Bays', 'Flanders', 'Quogue'],
   'riverhead': ['Aquebogue', 'Calverton', 'Wading River', 'Jamesport', 'Baiting Hollow'],
   'montauk': ['East Hampton', 'Amagansett', 'Springs', 'Napeague', 'Hither Hills'],
-  'melville': ['Huntington', 'Commack', 'Deer Park', 'Half Hollow Hills', 'Bethpage'],
+  'melville': ['Huntington', 'Commack', 'Deer Park', 'Half Hollow Hills', 'Dix Hills'],
   'deer-park': ['Melville', 'Commack', 'Dix Hills', 'North Babylon', 'Wyandanch'],
   'lindenhurst': ['Babylon', 'North Lindenhurst', 'West Babylon', 'Copiague', 'Amityville'],
   // Nassau hubs
   'garden-city': ['Mineola', 'Carle Place', 'East Garden City', 'Stewart Manor', 'New Hyde Park'],
   'hempstead': ['West Hempstead', 'Baldwin', 'Uniondale', 'Garden City', 'Elmont'],
   'levittown': ['Hicksville', 'Wantagh', 'East Meadow', 'Bethpage', 'Seaford'],
-  'great-neck': ['Kings Point', 'Great Neck Estates', 'Manhasset', 'Port Washington', 'Little Neck'],
+  'great-neck': ['Kings Point', 'Great Neck Estates', 'Manhasset', 'Port Washington', 'Great Neck Plaza'],
   'freeport': ['Baldwin', 'Merrick', 'Oceanside', 'South Freeport', 'Milburn'],
   'massapequa': ['Massapequa Park', 'Seaford', 'Wantagh', 'Old Bethpage', 'Farmingdale'],
   'long-beach': ['Lido Beach', 'Atlantic Beach', 'Island Park', 'Oceanside', 'East Rockaway'],
@@ -474,7 +474,7 @@ export const questNearbyTowns: Record<string, string[]> = {
   'merrick': ['Bellmore', 'Wantagh', 'North Merrick', 'Freeport', 'Seaford'],
   'bellmore': ['Merrick', 'North Bellmore', 'Wantagh', 'Seaford', 'North Wantagh'],
   'wantagh': ['Levittown', 'Seaford', 'Bellmore', 'Massapequa', 'North Wantagh'],
-  'farmingdale': ['Bethpage', 'Melville', 'South Farmingdale', 'Old Bethpage', 'Massapequa'],
+  'farmingdale': ['Bethpage', 'North Massapequa', 'South Farmingdale', 'Old Bethpage', 'Massapequa'],
   // Queens hubs
   'flushing': ['Murray Hill', 'College Point', 'Whitestone', 'Auburndale', 'Fresh Meadows'],
   'jamaica': ['Jamaica Hills', 'South Jamaica', 'St. Albans', 'Hollis', 'Queens Village'],
@@ -495,7 +495,7 @@ export const questNearbyTowns: Record<string, string[]> = {
   'elmhurst': ['Jackson Heights', 'Corona', 'Rego Park', 'Maspeth', 'Woodside'],
   'maspeth': ['Ridgewood', 'Middle Village', 'Glendale', 'Woodside', 'Long Island City'],
   'middle-village': ['Glendale', 'Maspeth', 'Ridgewood', 'Forest Hills', 'Woodhaven'],
-  'far-rockaway': ['Arverne', 'Edgemere', 'Bayswater', 'Lawrence', 'Inwood'],
+  'far-rockaway': ['Arverne', 'Edgemere', 'Bayswater', 'Rockaway Park', 'Belle Harbor'],
 };
 
 // ─── Neighborhood Highlights ──────────────────────────────────────────────────

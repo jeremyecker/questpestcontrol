@@ -106,7 +106,7 @@ export default async function ServiceTownPage({
     name: `${SERVICE_NAME} — ${townName}`,
     provider: { '@type': 'LocalBusiness', name: BRAND.name, telephone: `+1${BRAND.phone}` },
     areaServed: { '@type': 'City', name: townName },
-    url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}`,
+    url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}/`,
   };
 
   const faqSchema = {
@@ -129,7 +129,7 @@ export default async function ServiceTownPage({
           {' / '}
           <Link href={`/${regionSlug}`} className="hover:text-brand-primary">{region.name}</Link>
           {' / '}
-          <Link href={`/${regionSlug}/${SERVICE_SLUG}`} className="hover:text-brand-primary">{SERVICE_NAME}</Link>
+          <Link href={`/${regionSlug}/${SERVICE_SLUG}/`} className="hover:text-brand-primary">{SERVICE_NAME}</Link>
           {' / '}
           <span className="text-gray-900">{townName}</span>
         </nav>
@@ -139,7 +139,7 @@ export default async function ServiceTownPage({
           <a href={`tel:+1${BRAND.phone}`} className="flex-1 text-center bg-brand-primary hover:bg-brand-secondary text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors">
             📞 Call {BRAND.phoneFormatted}
           </a>
-          <Link href={`/${regionSlug}/contact`} className="flex-1 text-center bg-brand-accent text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors">
+          <Link href={`/${regionSlug}/contact/`} className="flex-1 text-center bg-brand-accent text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors">
             Get a Free Quote
           </Link>
         </div>
@@ -157,7 +157,7 @@ export default async function ServiceTownPage({
           <p className="mb-6 opacity-90">Licensed, insured, same-day service available. Call now or get a free quote online.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:+1${BRAND.phone}`} className="bg-white text-brand-primary font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">📞 {BRAND.phoneFormatted}</a>
-            <Link href={`/${regionSlug}/contact`} className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg transition-colors">Get a Free Quote</Link>
+            <Link href={`/${regionSlug}/contact/`} className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg transition-colors">Get a Free Quote</Link>
           </div>
         </div>
       </div>
