@@ -18,7 +18,8 @@ export const metadata: Metadata = {
     default: SEO.defaultTitle,
     template: `%s | ${SITE_NAME}`,
   },
-  description: SITE_DESCRIPTION,
+  // SEO: Optimized for 'exterminator near me' — 364 impressions at 0.27% CTR (GSC 2026-03-15)
+  description: 'Need an exterminator near you? Quest Pest Control serves Suffolk, Nassau & Queens — licensed, insured, same-day service. Get a free quote today!',
   icons: {
     icon: '/favicon.ico',
     apple: '/icon-192.png',
