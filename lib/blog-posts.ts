@@ -9,7 +9,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-03-15',
     author: 'Quest Pest Control Team',
     tags: ['cockroaches', 'nyc', 'queens', 'apartments', 'roach-control'],
-    heroImage: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    heroImage: 'https://images.pexels.com/photos/6526933/pexels-photo-6526933.jpeg?auto=compress&cs=tinysrgb&w=1200',
     content: `
 ## First, Let's Be Clear: This Is Not About Cleanliness
 
