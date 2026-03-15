@@ -105,7 +105,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   if (trimmed.startsWith('### ')) {
                     return <h3 key={i}>{trimmed.replace('### ', '')}</h3>;
                   }
-                  if (line === '---') {
+                  if (trimmed === '---') {
                     return <hr key={i} className="my-8 border-gray-200" />;
                   }
                   if (trimmed.startsWith('#### ')) {
