@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SITE_NAME, PHONE, PHONE_HREF, GEO } from '@/site.config';
 import { generatePageMetadata, articleSchema } from '@/lib/seo';
 import { getBlogPostBySlug, getAllBlogPosts } from '@/lib/blog-posts';
@@ -79,13 +80,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </header>
 
               {/* Hero Image */}
-              {(post.heroImage) && (
+              {(post.heroImage || post.image) && (
                 <div className="mb-8 rounded-xl overflow-hidden">
-                  <img
-                    src={post.heroImage}
+                  <Image
+                    src={post.heroImage || post.image!}
                     alt={post.title}
                     className="w-full h-64 md:h-80 object-cover"
                     loading="lazy"
+                    width={1260}
+                    height={750}
                   />
                 </div>
               )}
@@ -101,6 +104,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   }
                   if (trimmed.startsWith('### ')) {
                     return <h3 key={i}>{trimmed.replace('### ', '')}</h3>;
+                  }
+                  if (line === '---') {
+                    return <hr key={i} className="my-8 border-gray-200" />;
+                  }
+                  if (trimmed.startsWith('#### ')) {
+                    return <h4 key={i} className="text-lg font-semibold text-gray-800 mt-4 mb-2">{trimmed.slice(5)}</h4>;
+                  }
+                  if (trimmed.startsWith('- ') && !trimmed.startsWith('- **')) {
+                    return <li key={i} className="ml-4 list-disc text-gray-700">{trimmed.slice(2)}</li>;
                   }
                   if (trimmed.startsWith('- **')) {
                     return (
