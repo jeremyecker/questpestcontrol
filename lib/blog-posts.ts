@@ -3,6 +3,161 @@ import { GEO, SITE_NAME } from '@/site.config';
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-to-get-rid-of-cockroaches-nyc-apartment',
+    title: 'How to Get Rid of Cockroaches in a NYC Apartment (Queens Edition)',
+    description: "Cockroaches in your Queens apartment? It's not about cleanliness — it's the building. A Queens exterminator's complete guide to eliminating roaches in NYC apartments for good.",
+    date: '2026-03-15',
+    author: 'Quest Pest Control Team',
+    tags: ['cockroaches', 'nyc', 'queens', 'apartments', 'roach-control'],
+    heroImage: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    content: `
+## First, Let's Be Clear: This Is Not About Cleanliness
+
+If you're a Queens resident and you have cockroaches, the first thing you need to hear is this: it has nothing to do with how clean your apartment is.
+
+You can mop every day, keep nothing on the counters, seal every container, and still come downstairs at 2 AM to watch a roach sprint across the kitchen floor. This is not a character flaw. It's infrastructure.
+
+Queens apartments — particularly the pre-war walk-ups in Jackson Heights, Flushing, Astoria, Jamaica, and Woodside — were built in an era when no one considered pest barriers in construction design. Shared walls connect your apartment to every other unit on the floor, in the building, and in the adjacent building. Original plumbing from the 1940s and 1950s runs through open chases inside the walls. Gaps around pipes, conduit, and electrical runs are large enough to drive a truck through by roach standards. Basement boiler rooms connect to the entire building's infrastructure.
+
+In this environment, cockroaches don't care about your cleaning habits. They care about warmth, moisture, and pathways — and Queens apartments have all three in abundance.
+
+Understanding this is step one, because it reframes the problem correctly: you're not fighting your own mess. You're fighting a structural vulnerability that requires a structural solution.
+
+## The 3 Roach Species in NYC Apartments (and How to Tell Them Apart)
+
+Before you treat anything, you need to know what you're dealing with. The three species you'll encounter in Queens apartments behave differently, shelter differently, and require different approaches.
+
+### German Cockroach — The One You Probably Have
+
+**Size:** 1/2 to 5/8 inch. Small.
+**Color:** Light tan to golden-brown with two distinctive dark stripes running lengthwise behind the head.
+**Behavior:** Almost always found near food and moisture. Kitchen cabinets, under the sink, inside the motor housing of the refrigerator, behind the stove, inside cabinet hinges, and in bathroom walls near plumbing.
+
+The German cockroach is the dominant species in NYC apartments by a wide margin. A single female can produce an egg sac (ootheca) containing 30–40 eggs every few weeks. Under ideal NYC apartment conditions — warmth, moisture, food residue — populations double in weeks. If you're seeing roaches in the kitchen or bathroom, this is almost certainly what you have.
+
+German cockroaches almost never come from outdoors. They travel through buildings via shared plumbing chases, wall voids, and under door gaps from neighboring units.
+
+### American Cockroach — The "Water Bug"
+
+**Size:** 1.5 to 2 inches. Large and alarming.
+**Color:** Reddish-brown with a pale yellow band around the thorax.
+**Behavior:** Prefers warm, moist areas — basement boiler rooms, sewer lines, laundry rooms, sub-grade utility spaces. Will travel up through floor drains into apartments, particularly in ground-floor units.
+
+In Queens neighborhoods with older sewer infrastructure — Jamaica, Richmond Hill, Ozone Park — the American cockroach is the "water bug" that terrifies tenants. They're slower-moving than German cockroaches and less likely to be found in large numbers inside your apartment, but their size makes every encounter memorable. They're not coming from inside your walls — they're coming from below.
+
+### Oriental Cockroach — Dark, Damp, and Musty
+
+**Size:** About 1 inch. Dark brown to almost black.
+**Color:** Very dark, almost shiny.
+**Behavior:** Favors extremely moist, cool conditions — floor drains, crawl spaces, and damp basements. Produces a strong, musty odor. Less common than the other two species but found in ground-floor units and basement-adjacent apartments throughout Queens.
+
+## Why Sprays and Bombs Never Work — And What Actually Does
+
+This is the most important section of this guide. If you've tried foggers, aerosol sprays, or "roach bombs" and the problem came back (or got worse), you're not alone. You were using the wrong tool — not because you failed, but because those products are fundamentally the wrong approach.
+
+**Here's what happens when you use a spray or fogger:**
+
+Contact sprays and foggers work on direct contact. Anything they touch dies. But cockroaches immediately detect the chemical irritant (they have chemoreceptors on their antennae) and scatter into wall voids, under appliances, and into cracks that are completely inaccessible to the spray. You've killed the 10% of the population that was in the open. The other 90% dispersed deeper into the wall.
+
+Worse: foggers cause roaches to scatter to other parts of the apartment — or to neighboring units — where they set up new populations. A fogger in your apartment has been known to trigger roach infestations in units that previously had none.
+
+Egg cases (oothecae) are completely immune to contact sprays. The wax coating on the egg sac protects the eggs from every consumer-grade pesticide. You kill every adult in the room, leave behind 40 egg cases, and three weeks later the population has recovered entirely.
+
+**What actually works: Gel bait.**
+
+Gel bait is a food matrix laced with a slow-acting insecticide (typically a borate compound or fipronil/indoxacarb). Cockroaches eat it willingly because it's formulated to be attractive. The active ingredient works slowly enough that the cockroach returns to its harborage area before dying — contaminating the feces it leaves behind (which other cockroaches consume — yes, cockroaches are coprophagic). The cascade effect eliminates the population, including cockroaches you never saw, deep inside wall voids.
+
+The key word is *placement*. Gel bait applied on open countertops doesn't work. It needs to be placed in the specific locations where cockroaches are harboring: inside cabinet hinges, under the sink where the pipe meets the wall, in the crack between the stove and the counter, behind the toilet tank.
+
+## Step-by-Step Queens Apartment Roach Elimination Plan
+
+### Step 1: Identify the Species and the Source
+
+Are you seeing small tan roaches in the kitchen and bathroom? That's German. Large reddish-brown roaches coming from the floor drain? American. Knowing which species you have determines where you focus your effort. For German cockroaches, the infestation is within your unit. For American cockroaches, the source is the building's sub-structure and your landlord's problem.
+
+### Step 2: Remove All Food Harborage
+
+Before treating, you must reduce available food sources:
+- Transfer everything edible to sealed hard containers (roaches can chew through cardboard and thin plastic)
+- Fix any dripping faucets or leaks under the sink — German cockroaches need water and will cluster near any moisture source
+- Clean the grease buildup behind and under the stove — this is a primary food source
+- Remove cardboard boxes (roaches nest in corrugated cardboard)
+
+This step alone won't eliminate an infestation, but it dramatically improves treatment effectiveness.
+
+### Step 3: Apply Gel Bait in Strategic Locations
+
+Apply small (pea-sized) dots of gel bait in the following locations:
+- **Inside cabinet hinges** — the top hinge of every lower cabinet
+- **Under the sink** — at the pipe penetrations where they meet the wall or cabinet base
+- **Inside the motor housing of the refrigerator** — accessible from the back or underneath; this is a prime harborage for German cockroaches
+- **In the crack between the stove and the counter** on both sides
+- **Behind the toilet tank** — where the tank meets the wall
+- **Under the bathroom vanity** — at pipe penetrations
+
+Do not spray anything before or after applying bait. Repellent sprays will prevent cockroaches from approaching the bait stations.
+
+### Step 4: Use an IGR (Insect Growth Regulator)
+
+An IGR (typically hydroprene or pyriproxyfen) doesn't kill adult cockroaches — it prevents nymphs from reaching reproductive maturity by disrupting their molting process. When used alongside gel bait, IGR breaks the reproductive cycle so the population can't recover between treatments. This is a professional-grade tool but available to consumers in products like Gentrol Point Source.
+
+### Step 5: Seal Every Penetration
+
+Use steel wool packed into gaps around pipes, then cover with caulk or silicone. Steel wool is critical because roaches (and rodents) can chew through foam sealant alone. Focus on:
+- Under-sink pipe penetrations
+- The gap between the stove gas line and the wall
+- Electrical outlet boxes on shared walls
+- Any visible gap in the baseboard along shared walls
+
+### Step 6: Coordinate with Neighbors and Building Management
+
+In a Queens multi-unit building, treating only your apartment is temporary. If your neighbors have an untreated infestation, roaches will migrate back within weeks. Building management in NYC has a legal obligation to address cockroach infestations — this is covered under NYC Housing Maintenance Code §27-2018. Document your infestation, submit a written complaint to management, and if they fail to respond, file with NYC 311. In serious cases, the NYC Department of Housing Preservation and Development (HPD) can compel treatment of the entire building.
+
+## The Building Management Problem — And What Renters Can Do
+
+This is the frustrating reality for Queens renters: cockroaches in pre-war buildings are often a building-wide problem that management has either failed to address or is addressing inadequately with the wrong treatment methods.
+
+Your options as a renter:
+
+**Document everything.** Photograph roaches, take videos, note dates and locations. This documentation is essential for any formal complaint.
+
+**Submit written requests.** A verbal complaint to a super is not a legal record. Send a written request (email or letter with delivery confirmation) to the building management company.
+
+**File with 311.** NYC 311 online and by phone accepts housing code complaints. An HPD inspector will be dispatched. If they find a violation, the landlord is issued a notice of violation and a compliance deadline.
+
+**Contact Queens Legal Services.** If management is unresponsive and the infestation is affecting your health (roach allergen is a leading trigger for asthma, particularly in children), legal aid organizations can assist with enforcement.
+
+---
+
+## FAQ
+
+### Why do I have roaches if my apartment is clean?
+
+Cockroach infestations in Queens apartments are structural, not sanitary. Pre-war buildings have shared wall voids, open plumbing chases, and gaps around pipes and conduit that allow cockroaches to travel freely throughout the building. A German cockroach in your kitchen likely entered from a neighboring unit through a wall penetration or under a door gap — not because of anything you did or didn't clean. Sanitation is important for reducing available food and making bait more attractive, but it will not eliminate an infestation that has structural pathways into your unit.
+
+### Can roaches come from neighbors?
+
+Yes — this is one of the most common causes of apartment cockroach infestations in Queens. German cockroaches travel freely through shared walls, plumbing chases, under door thresholds, and through electrical conduit between units. If a neighboring unit has an untreated infestation, you will experience ongoing re-introduction regardless of how thoroughly you treat your own apartment. Effective building-wide treatment — or at minimum, treatment of all adjacent units — is necessary to fully resolve the problem. This is a landlord's legal responsibility under NYC Housing Maintenance Code.
+
+### How long does it take to get rid of roaches in an apartment?
+
+With correct gel bait treatment and an IGR, a German cockroach infestation in a single apartment typically shows significant reduction within 1–2 weeks and near-elimination within 3–4 weeks. However, in multi-unit buildings with active infestations in adjacent units, re-introduction will continue until the building receives coordinated treatment. A professional treatment with follow-up is typically more effective than a single DIY application, because professionals can access harborage areas (inside walls, inside appliances) that homeowners cannot, and use commercial-grade products.
+
+### What actually kills roaches in apartments?
+
+Gel bait is the most effective tool available for German cockroach elimination in apartments — more effective than any spray, fogger, trap, or ultrasonic device. The slow-acting bait creates a cascade effect that reaches cockroaches deep inside walls and appliances. Combined with an IGR to break the reproductive cycle and physical exclusion (sealing pipe penetrations with steel wool and silicone), gel bait treatment can eliminate a German cockroach population within a month. For American cockroaches coming from sewer lines and building sub-structure, the treatment focus shifts to the building infrastructure — floor drains, basement utility areas, and the building perimeter.
+
+### Do I need to leave during roach treatment?
+
+For professional gel bait treatment, you typically do not need to leave. Gel bait is applied in small amounts in harborage areas and poses minimal exposure risk to occupants. If a professional is also applying residual sprays or dusts to wall voids and inaccessible areas, they will advise you on any necessary precautions, which are typically minimal (stay out of the treated room for a short period while the product dries). Foggers and bombs — which we don't recommend for the reasons described above — do require full vacating of the apartment and extensive preparation. If a pest control company tells you that you need to fog or bomb for German cockroaches, get a second opinion.
+
+---
+
+If you're dealing with cockroaches in a Queens apartment — whether in a Jackson Heights walk-up, a Flushing high-rise, an Astoria brownstone, or a Jamaica semi-detached — Quest Pest Control provides professional gel bait treatment with IGR, structural exclusion, and documentation for building management complaints. We serve all Queens neighborhoods and respond same-day or next-day.
+    `.trim(),
+  },
+
+  {
     slug: 'termites-signs-prevention',
     title: `Termites in ${GEO.countyFull}: Signs, Prevention & Treatment`,
     description: `Learn how to identify and prevent termite infestations across Long Island and Queens. Expert tips from ${SITE_NAME}.`,
