@@ -79,30 +79,35 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </header>
 
               {/* Hero Image */}
-              {(post.heroImage) && (
+              {(post.heroImage || post.image) && (
                 <div className="mb-8 rounded-xl overflow-hidden">
                   <img
-                    src={post.heroImage}
-                    alt={post.title}
+                    src={post.heroImage || post.image}
+                    alt={post.imageAlt || post.title}
                     className="w-full h-64 md:h-80 object-cover"
                     loading="lazy"
                   />
                 </div>
               )}
 
-
               {/* Post Content */}
               <div className="prose-content">
                 {post.content.split('\n').map((paragraph, i) => {
                   const trimmed = paragraph.trim();
                   if (!trimmed) return null;
+                  if (trimmed === '---') {
+                    return <hr key={i} className="my-6 border-gray-200" />;
+                  }
                   if (trimmed.startsWith('## ')) {
                     return <h2 key={i}>{trimmed.replace('## ', '')}</h2>;
                   }
                   if (trimmed.startsWith('### ')) {
                     return <h3 key={i}>{trimmed.replace('### ', '')}</h3>;
                   }
-                  if (trimmed.startsWith('- **')) {
+                  if (trimmed.startsWith('#### ')) {
+                    return <h4 key={i} className="text-base font-semibold mt-4 mb-2">{trimmed.replace('#### ', '')}</h4>;
+                  }
+                  if (trimmed.startsWith('- ')) {
                     return (
                       <p key={i} className="ml-4" dangerouslySetInnerHTML={{
                         __html: '• ' + trimmed.slice(2).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-green-600 hover:underline">$1</a>')
